@@ -1,0 +1,3 @@
+#!/bin/sh
+
+magick import ~/scripts/magick-screenshot/"test_$(date +%F%T)".png
