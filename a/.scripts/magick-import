@@ -1,3 +1,16 @@
 #!/bin/sh
 
-magick import ~/scripts/magick-screenshot/"test_$(date +%F%T)".png
+take () {
+
+echo "img_$(date +%F%T)".png > ~/.config/scripts/magick-screenshot/img.txt
+magick import ~/.config/scripts/magick-screenshot/"$(cat ~/.config/scripts/magick-screenshot/img.txt)"
+notify-send screenshot_initiated "$(cat ~/.config/scripts/magick-screenshot/img.txt)" -i ~/.config/scripts/magick-screenshot/"$(cat ~/.config/scripts/magick-screenshot/img.txt)"
+rm -rf ~/.config/scripts/magick-screenshot/img.txt && killall -9 magick-import
+}
+
+while true
+do
+
+take
+
+done
