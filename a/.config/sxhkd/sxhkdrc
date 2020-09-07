@@ -35,19 +35,19 @@ super + a
 super + Escape 
 	pkill -USR1 -x sxhkd
 
-control + 1
+alt + 1
 	xdotool set_desktop 0
 
-control + 2
+alt + 2
 	xdotool set_desktop 1
 
-control + 3
+alt + 3
 	xdotool set_desktop 2
 
-control + 4
+alt + 4
 	xdotool set_desktop 3
 
-control + 5 
+alt + 5 
 	xdotool set_desktop 4
 
 	
