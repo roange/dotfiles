@@ -9,10 +9,10 @@ super + d
 	dmenu_run
 
 super + 0
-	pamixer -i 4
+	amixer -q sset Master 4%+
 
 super + 9
-	pamixer -d 4
+	amixer -q sset Master 4%-
 
 
 # scripts
