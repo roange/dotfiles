@@ -2,10 +2,7 @@
 super + z
 	st
 
-super + l
-	pavucontrol
-
-super + shift + l 
+super + l 
 	lxappearance
 
 super + d
