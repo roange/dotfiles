@@ -6,6 +6,6 @@
 - ash     (shell)
 - vim     (text editor)
 - lemonbar(statusbar)
-- sxhkd   (key binder stuff)
+- [sxhkd](https://github.com/baskerville/sxhkd)   (key binder stuff)
 - [shod](https://github.com/phillbush/shod) (window manager)
 - [mpv](https://mpv.io)     (music/video player)
