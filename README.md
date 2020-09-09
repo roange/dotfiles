@@ -9,6 +9,3 @@
 - sxhkd   (key binder stuff)
 - [shod](https://github.com) (window manager)
 - mpv     (music/video player)
-
-
-test [link](https://github.com)
