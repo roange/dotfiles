@@ -1,7 +1,7 @@
 ![img](untitled.png)
 
 ### details ###
-= void    (sys)
+- void    (sys)
 - runit   (init)
 - ash     (shell)
 - vim     (text editor)
