@@ -8,4 +8,4 @@
 	 | \___/ | |	lemonbar (statusbar)
 	 \\______ \\_|	sxhkd    (key binder stuff)
 	-_______\\	shod     (window manager)
-       			mpv      (music/video player)
+                        mpv      (music/video player)
