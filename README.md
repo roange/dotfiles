@@ -8,4 +8,4 @@
 - lemonbar(statusbar)
 - sxhkd   (key binder stuff)
 - [shod](https://github.com/phillbush/shod) (window manager)
-- [mpv](mpv.io)     (music/video player)
+- [mpv](https://mpv.io)     (music/video player)
