@@ -1,6 +1,5 @@
 ![img](untitled.png)
 
-## details
         void     (sys)
         runit    (init)
         ash      (shell)
