@@ -7,5 +7,3 @@
 	sxhkd (key binder stuff)
 	shod   (window manager)
 	mpv    (music/video player)
-
-==========================
