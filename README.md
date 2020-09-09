@@ -7,5 +7,8 @@
         vim     (text editor)
         lemonbar(statusbar)
         sxhkd   (key binder stuff)
-        shod [link](https://github.com)
+        shod    (window manager)
         mpv     (music/video player)
+
+
+test [link](https://github.com)
