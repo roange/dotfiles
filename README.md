@@ -8,4 +8,5 @@
         lemonbar (statusbar)
         sxhkd    (key binder stuff)
         shod     (window manager)
+        feh      (image viewer)
         mpv      (music/video player)
