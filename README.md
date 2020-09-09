@@ -1,7 +1,7 @@
 ![img](untitled.png)
 
 ### details
-	sys    (void)
+	void   (sys)
 	ash    (shell)
 	vim    (text editor)
 	sxhkd  (key binder stuff)
