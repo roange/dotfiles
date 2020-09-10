@@ -8,6 +8,6 @@
         lemonbar (statusbar)
         sxhkd    (key-binder-stuff)
         shod     (window-manager)
-        dunst    (notification server)
+        dunst    (notification-server)
         feh      (image-viewer)
         mpv      (music/video-player)
