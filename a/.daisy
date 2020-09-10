@@ -4,7 +4,7 @@ export PS1="~ "
 xset r rate 200 50
 
 
-export PATH=/usr/lib:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/test
+export PATH=$PATH:/test
 export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/lib32
 
 ##
