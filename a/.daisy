@@ -9,4 +9,5 @@ export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/lib32
 
 ##
 alias ls='ls --color=auto'
+alias 0='printf "\033c"'
 alias vim="vim -u \$HOME/.config/vim/vimrc"
