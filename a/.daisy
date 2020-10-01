@@ -6,6 +6,7 @@ xset r rate 200 50
 
 export PATH=$PATH:/test
 export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/lib32
+export XDG_CONFIG_HOME=$HOME/.config
 
 export TERM=xterm
 export EDITOR=vim
