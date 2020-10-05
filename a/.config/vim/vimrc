@@ -4,7 +4,6 @@ set expandtab
 set nocompatible
 set noswapfile
 set number
-set signcolumn=no
 set backspace=indent,eol,start
 
 set viminfo+=n/tmp/viminfo
