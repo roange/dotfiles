@@ -3,9 +3,8 @@ scriptencoding utf-8
 set expandtab
 set nocompatible
 set noswapfile
-set cursorline
 set number
-set signcolumn=yes
+set signcolumn=no
 set backspace=indent,eol,start
 
 set viminfo+=n/tmp/viminfo
