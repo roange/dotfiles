@@ -2,10 +2,10 @@
 
 take () {
 
-printf "img_$(date +%F_%T)".png > ~/.config/scripts/magick-screenshot/img.txt
-magick import ~/.config/scripts/magick-screenshot/"$(cat ~/.config/scripts/magick-screenshot/img.txt)"
-notify-send screenshot_initiated "$(cat ~/.config/scripts/magick-screenshot/img.txt)" -i ~/.config/scripts/magick-screenshot/"$(cat ~/.config/scripts/magick-screenshot/img.txt)"
-rm -rf ~/.config/scripts/magick-screenshot/img.txt && killall -9 magick-import
+time=$(date +%F_%T)
+magick import ~/.config/scripts/magick-screenshot/"img_$time.png"
+notify-send screenshot_initiated "img_$time.png" -i ~/.config/scripts/magick-screenshot/"img_$time.png"
+killall -9 magick-import
 }
 
 while true
