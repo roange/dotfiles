@@ -1,4 +1,5 @@
 # independent keys
+
 super + z
 	st
 
@@ -11,12 +12,10 @@ super + 0
 super + 9
 	amixer -q sset Master 4%-
 
-
 # scripts
 
 super + s
 	~/scripts/magick-import
-
 
 #xdotool + wmctrl
 
