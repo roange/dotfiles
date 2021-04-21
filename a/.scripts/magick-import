@@ -8,9 +8,4 @@ notify-send screenshot_initiated "img_$time.png" -i ~/.config/scripts/magick-scr
 killall -9 magick-import
 }
 
-while true
-do
-
 take
-
-done
