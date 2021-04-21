@@ -5,6 +5,6 @@ set nocompatible
 set noswapfile
 set number
 set backspace=indent,eol,start
-
 set viminfo+=n/tmp/viminfo
+set mouse=a
 
