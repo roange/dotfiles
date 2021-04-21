@@ -3,7 +3,13 @@ super + z
 	st
 
 super + l 
+	pavucontrol
+
+super + l
 	lxappearance
+
+super + shift + x
+	kcolorchooser
 
 super + d
 	dmenu_run
