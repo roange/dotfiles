@@ -5,7 +5,7 @@ super + z
 super + l 
 	pavucontrol
 
-super + l
+super + shift + l
 	lxappearance
 
 super + shift + x
