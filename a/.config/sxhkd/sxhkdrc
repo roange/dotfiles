@@ -2,15 +2,6 @@
 super + z
 	st
 
-super + l 
-	pavucontrol
-
-super + shift + l
-	lxappearance
-
-super + shift + x
-	kcolorchooser
-
 super + d
 	dmenu_run
 
