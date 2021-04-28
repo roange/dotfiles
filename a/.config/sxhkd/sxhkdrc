@@ -17,6 +17,12 @@ super + 9
 super + s
 	~/scripts/magick-import
 
+alt + q
+	~/scripts/mew -I
+
+alt + shift + q
+	~/scripts/mew -i
+
 #xdotool + wmctrl
 
 super + c

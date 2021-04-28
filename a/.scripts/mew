@@ -1,11 +1,27 @@
 #!/bin/sh
 
-blue () {
-lr=$(xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}')
-sr=$(expr "$lr" + 1)
-id=$(xdotool getactivewindow)
-window_id=$(printf 0x"%x\n" $id)
-wmctrl -i -r $window_id 3 -t "$sr"
-}
+option="${1}" 
+case ${option} in
+   -I)
+      	blue () {
+	lr=$(xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}')
+	sr=$(expr "$lr" + 1)
+	id=$(xdotool getactivewindow)
+	window_id=$(printf 0x"%x\n" $id)
+	wmctrl -i -r $window_id 3 -t "$sr"
+	}
 
-blue
+	blue
+      ;; 
+   -i)
+      	blue () {
+	lr=$(xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}')
+	sr=$(expr "$lr" - 1)
+	id=$(xdotool getactivewindow)
+	window_id=$(printf 0x"%x\n" $id)
+	wmctrl -i -r $window_id 3 -t "$sr"
+	}
+
+	blue
+      ;;
+esac 
