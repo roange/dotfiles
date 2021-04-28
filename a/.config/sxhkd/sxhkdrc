@@ -15,7 +15,7 @@ super + 9
 # scripts
 
 super + s
-	~/scripts/magick-import
+	~/scripts/mim
 
 alt + q
 	~/scripts/mew -I
