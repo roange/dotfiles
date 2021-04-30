@@ -5,7 +5,7 @@ case ${option} in
    -I)
       	blue () {
 	lr=$(xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}')
-	sr=$(expr "$lr" + 1)
+	: "$((sr = lr - 1))"
 	id=$(xdotool getactivewindow)
 	window_id=$(printf 0x"%x\n" $id)
 	wmctrl -i -r $window_id 3 -t "$sr"
@@ -16,7 +16,7 @@ case ${option} in
    -i)
       	blue () {
 	lr=$(xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}')
-	sr=$(expr "$lr" - 1)
+	: "$((sr = lr - 1))"
 	id=$(xdotool getactivewindow)
 	window_id=$(printf 0x"%x\n" $id)
 	wmctrl -i -r $window_id 3 -t "$sr"
