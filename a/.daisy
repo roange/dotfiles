@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PS1="~ "
+export PS1="- "
 xset r rate 200 50
 
 export PATH=$PATH:/test
